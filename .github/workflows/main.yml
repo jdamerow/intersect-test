@@ -22,7 +22,7 @@ jobs:
 
       - name: Test package
         run: python -m pytest
-   test-python-3-14:
+  test-python-3-14:
      name: Check Python 3.14 on Ubuntu
      runs-on: ubuntu-latest
      steps:
